@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: 'Playfair Display', Helvetica, sans-serif;
+}
+div.card{
+  padding: 5px 50px 25px 50px;
+  margin: auto;
+  /* padding-top: 5px
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 25px; */
+}
+
+header{
+    display: block;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+header ul li{
+    display: inline-block;
+    list-style: none;
+    text-align: center; 
+    align-items: center;
+}
+ header ul li a{
+    text-decoration: none;
+    padding-left: 30px;
+}
+header ul li a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    /* border: 2px solid black; */
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+    justify-content: center;
+}
+header ul li a.button:hover {
+    background-color: #888888;
+    color: white;
+    /* border-radius: 40px; */
+  }
+  div.content{
+    text-align: center;
+  }
+  div.content h2{
+    margin-top: 35px;
+    text-align: center;
+  }
+  div.content p{
+    margin-top: 15px;
+    display: inline-block;
+    max-width: 60%;
+    text-align: justify;
+    justify-content: baseline;
+    direction: ltr;
+  }
+  footer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   }
+   footer div.addr, footer div.icon, footer div.text{
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 30%;
+   }
+   footer div.icon{
+   justify-content: space-between ;
+   }
+   footer div.text{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    width: 60%;
+    text-align: center;
+   }
+   footer div.addr p{
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+   }
+   div.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    padding-top: 15px;
+   }
+   div.main h2{
+    color: black;
+    font-weight: normal;
+   }
+   div.main h3{
+    font-size: 19px;
+   }
+   div.setfive{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+   }
+   div.one{
+    display: flex;
+    flex-direction: row;
+   }
+   div.one img{
+    padding: 20px;
+   }
+   div.text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+   }
+   div.text h4{
+    text-align: justify;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+   }
+   div.text p{
+    text-align: justify;
+    padding: 20px;
+    max-width: 80%;
+    padding-top: 0;
+   }
+   hr{
+    width: 7%;
+    border: none !important;
+    border-bottom: 3px solid black !important;
+    color: black;
+    margin-left: 20px;
+    margin: 1rem 21px !important;
+   }
+   p.twopara{
+    padding-top: 10px;
+   }
+
+   @media(max-width:900px){
+    div img.bigbg{
+        height: 600px;
+    }
+    div.card{
+      top: 170px !important;
+      left: 130px !important;
+    }
+    div.one{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     }
+     div.setfive{
+      align-items: center;
+      justify-content: center;
+     }
+     div.text{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+     }
+
+  }
+
+
+
