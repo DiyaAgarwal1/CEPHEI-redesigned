@@ -528,7 +528,8 @@ html, body {
 /* FOOTER
 ================================================== */
 .site-footer {
-    position: fixed;
+    /* position: fixed; */
+    margin-bottom: 0;
     bottom: 0;
     padding: 30px 0;
     width: 100%;

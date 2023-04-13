@@ -157,8 +157,8 @@ div.map{
         height: 600px;
     }
     div.card{
-      top: 170px !important;
-      left: 130px !important;
+      top: 25% !important;
+      left: 8% !important;
     }
     div.main p{
         max-width: 60%;
