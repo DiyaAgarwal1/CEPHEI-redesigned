@@ -265,6 +265,7 @@ html, body {
     margin-bottom: 100px;
     background-color: #fff;
     z-index: 1;
+    padding-top: 3%;
 }
 /* site-section */
 .site-section {
